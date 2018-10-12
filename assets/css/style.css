@@ -1,0 +1,169 @@
+/*universal selector*/
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+body {
+	padding-top: 80px;
+}
+div {
+	margin-bottom: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+h3 {
+	margin-bottom: 10px;
+}
+.container {
+	width: 700px;
+	margin: 0 auto;
+	/*background-color: #f2f2f2; /*off-white*/*/
+	color: #404040; /*off-black*/
+	background-color: #A2C3D3;	
+}
+
+header {
+	/*background-color: #09c; /*aqua*/*/
+	height: 70px;
+	line-height: 70px;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	background-color: #004BA8;
+	letter-spacing: 5;
+}
+
+footer {
+	/*background-color: #a6a6a6; /*grey*/*/
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #fff;
+	background-color: #3E78B2;
+}
+.main-dashboard {
+	margin-top: 20px;
+	height: 50px;
+}
+.dashboard-thumbnail {
+	display: inline-block;
+	width: 35%;
+	height: 100px;
+}
+
+.dashboard-circles {
+	height: 70px;
+	width: 70px;
+	/*background-color: red;*/
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	color: #fff;
+	margin-right: 20px;
+	float: left;
+	
+}
+
+i {
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+#post-circle {
+	background-color: #4caf50;
+	margin-left: 60px;
+}
+
+#image-circle {
+	background-color: #09c;
+	margin-left: 30px;
+}
+
+#post-title {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+#post-content {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.btn {
+	border: none;
+	padding: 15px 30px;
+	font-size: 14px;
+	/*border-radius: 5px;*/
+	color: #fff;
+	box-shadow: 3px 3px 3px black;
+}
+
+.btn-blue {
+	background-color: #09c; /*blue*/
+}
+.btn-green {
+	background-color: #4caf50; /*green*/
+}
+
+#btn-browse {
+	margin-left: 20px;
+}
+
+/*.hide-overflow {
+	overflow: hidden;
+}
+*/
+.img-set {
+	height: 70px;
+	width: 100px;
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 0 5px;
+	box-shadow: 3px 3px 3px black;
+}
+.img-set:hover {
+	transform: scale(2);
+}
+
+.img-set-holder {
+	text-align: center;
+}
+
+.inline-blocked {
+	display: inline-block;
+}
+
+.dashboard-text {
+	margin: 0;
+	font-size: 24px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+main {
+	padding: 0 20px;
+}
+
+#btn-publish,
+#btn-upload,
+#btn-browse {
+	float: right;
+}
+
+.image-wrapper {
+	height: 250px;
+}
+

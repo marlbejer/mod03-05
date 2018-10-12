@@ -1,0 +1,89 @@
+<!DOCTYPE <!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>DOM ACTIVITY 3</title>
+
+        <link rel="icon" type="images/png" href="assets/images/icon.png">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+		<!-- font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    </head>
+    <body>
+    	<div class="container">
+    		<header>
+    			<h1>TUITT Coding BootCamp</h1>
+    		</header>
+    		<main>
+    			<div class="main-dashboard">
+    				<h3 class="inline-blocked"><i class="fas fa-tachometer-alt"></i>&nbsp;&nbsp;Dashboard</h3>
+
+    				<div class="dashboard-thumbnail">
+    					<div id="post-circle" class="dashboard-circles">
+    						<i class="fas fa-file"></i>
+    					</div>
+
+    					<div class="inline-blocked">
+    						<p class="dashboard-text">5</p>
+    						<p class="dashboard-text"><h3>Post</h3></p>    						
+    					</div>
+    				</div> <!-- end of dashboard-thumbnail -->
+
+
+    				<div class="dashboard-thumbnail">
+    					<div id="image-circle" class="dashboard-circles">
+    						<i class="fas fa-images"></i>
+    					</div>
+
+    					<div class="inline-blocked">
+    						<p class="dashboard-text">13</p>
+    						<p class="dashboard-text"><h3>Images</h3></p>    						
+    					</div>
+    				</div> <!-- end of dashboard-thumbnail -->
+
+    			</div> <!-- end of main-dashboard -->
+
+    			<div>
+    				<h3><i class="fas fa-plus-circle"></i>&nbsp;&nbsp;New Post</h3>
+    				<form action="" class="hide-overflow">
+    					<input type="text" id="post-title" name="post" placeholder="Enter your post title">
+    					<input type="text" id="post-content" name="content" placeholder="Enter your post content here">
+    					<!-- <button id="btn-publish" class="btn btn-blue" name="button">Publish</button> -->
+    					<input type="button" id="btn-publish" class="btn btn-blue" name="button" value="Publish">
+    				</form>
+
+    			</div> <!-- end new post -->
+
+    			<div class="image-wrapper">
+    				<h3><i class="fas fa-upload"></i>&nbsp;&nbsp;Upload Image</h3>
+    				<div class="img-set-holder">
+    					<img src="assets/images/html_css.jpeg" alt="HTML and CSS." class="img-set">
+    					<img src="assets/images/programflow.jpg" alt="Design a code flow." class="img-set">
+    					<img src="assets/images/coding.jpeg" alt="Coding the design." class="img-set">
+    					<img src="assets/images/breaktime.jpeg" alt="Breaktime from coding." class="img-set">
+    					<img src="assets/images/phpcode.jpeg" alt="PHP code image." class="img-set">
+    				</div>
+    				
+					<form action="" class="hide-overflow">
+						<input type="button" id="btn-browse" class="btn btn-blue" value="Browse">
+						<input type="button" id="btn-upload" class="btn btn-green" value="Upload">
+					</form>
+    			</div> <!-- end of image gallery -->
+
+
+    		</main> <!-- end of main -->
+			<footer>
+				<p>Tuitt Coding Bootcamp &copy; 2018</p>
+			</footer>
+    	</div> <!-- end of container -->
+        
+        
+    </body>
+</html>
